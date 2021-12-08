@@ -47,7 +47,7 @@ namespace Task19._2
                                               select c;
             foreach (Computer c in сomputers)
             {
-                Console.WriteLine($"Код продукта: {c.Code}  \tМарка продукта: {c.Brand} \tОбъём ОЗУ: {c.AmountRAM}ГБ \tСтоимость: {c.Cost} руб.");
+                Console.WriteLine($"Код продукта: {c.Code}  \tМарка продукта: {c.Brand} \tОбъём ОЗУ: {c.AmountRAM}ГБ  \tСтоимость: {c.Cost} руб.");
             }
             Console.ReadKey();
         }
